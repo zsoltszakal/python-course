@@ -1,1 +1,3 @@
-Python - 100 days of codinghttps://github.com/zsoltszakal/python-course/blob/main/README.md
+Python - 100 days of code - Angela You
+
+1) Number guessing game
