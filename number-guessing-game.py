@@ -23,7 +23,7 @@ while not remaining_life == 0:
 		print("\nIt is too low. ")
 	else:
 		remaining_life = 0
-		print(f"\nWell done! You got it! The answer was {guess}")
+		print(f"\nWell done! You got it! The answer was {guess}.")
 
 if remaining_life == 0 and guess != random_number:
-	print("\nYou ran out of attemps. You lost game over")
+	print("\nYou ran out of attemps. You lost and the game over")
