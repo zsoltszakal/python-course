@@ -5,3 +5,4 @@
 3) Paiting
 4) XRP to GBP calculator
 5) Pomodoro
+6) Password Manager
