@@ -7,3 +7,4 @@
 5) Pomodoro
 6) Password Manager
 7) Flash Cards
+8) Send Email
