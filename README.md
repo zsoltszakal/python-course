@@ -9,4 +9,4 @@
 7) Flash Cards
 8) Send Email
 9) Birthday letter
-10) 
+10) Kanye Quotes API
