@@ -10,3 +10,4 @@
 8) Send Email
 9) Birthday letter
 10) Kanye Quotes API
+11) Rain SMS
