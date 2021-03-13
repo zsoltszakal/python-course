@@ -11,3 +11,4 @@
 9) Birthday letter
 10) Kanye Quotes API
 11) Rain SMS
+12) Stock price SMS
