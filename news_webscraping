@@ -1,0 +1,35 @@
+from bs4 import BeautifulSoup
+import requests
+
+response = requests.get("https://news.ycombinator.com/news")
+
+yc_web_page = response.text
+
+soup = BeautifulSoup(yc_web_page, "html.parser")
+
+articles = soup.find_all(name="a", class_="storylink")
+
+article_texts = []
+article_links = []
+
+for article in articles:
+    article_text = article.getText()
+    article_texts.append(article_text)
+    article_link = article.get("href")
+    article_links.append(article_link)
+
+
+
+article_upvotes = [int(score.getText().split()[0]) for score in soup.find_all(name="span", class_="score")]
+
+
+print(article_texts)
+print(article_links)
+print(article_upvotes)
+
+max_vote = max(article_upvotes)
+print(max_vote)
+
+index = article_upvotes.index(max_vote)
+print(article_texts[index])
+print(article_links[index])
